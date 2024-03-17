@@ -1,0 +1,29 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+:root {
+  --ifm-color-primary: #ff2c24; /* Change primary color to Laravel red */
+  --ifm-color-primary-dark: #e8271f; /* Adjust darker shade */
+  --ifm-color-primary-darker: #d3261c; /* Adjust darker shade */
+  --ifm-color-primary-darkest: #b92318; /* Adjust darker shade */
+  --ifm-color-primary-light: #ff453f; /* Adjust lighter shade */
+  --ifm-color-primary-lighter: #ff5e56; /* Adjust lighter shade */
+  --ifm-color-primary-lightest: #ff847b; /* Adjust lighter shade */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 44, 36, 0.1); /* Adjust code line background */
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #ff2c24; /* Change primary color to Laravel red */
+  --ifm-color-primary-dark: #e8271f; /* Adjust darker shade */
+  --ifm-color-primary-darker: #d3261c; /* Adjust darker shade */
+  --ifm-color-primary-darkest: #b92318; /* Adjust darker shade */
+  --ifm-color-primary-light: #ff453f; /* Adjust lighter shade */
+  --ifm-color-primary-lighter: #ff5e56; /* Adjust lighter shade */
+  --ifm-color-primary-lightest: #ff847b; /* Adjust lighter shade */
+  --docusaurus-highlighted-code-line-bg: rgba(255, 44, 36, 0.3); /* Adjust code line background */
+}
+
