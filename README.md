@@ -7,7 +7,7 @@ Welcome to my personal documentation repository for learning Laravel! The main p
 To get started with this repository, follow these steps:
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
     ```bash
-    git clone https://github.com/your-username/laravel-learning-notes.git
+    git clone https://github.com/HMZElidrissi/Laravel-in-Action.git
     ```
 
 2. **Install Dependencies**: Navigate to the project directory and install the required dependencies using the following command:
