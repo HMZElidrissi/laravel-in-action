@@ -1,41 +1,23 @@
-# Website
+# Laravel in Action
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to my personal documentation repository for learning Laravel! The main purpose of this documentation is to serve as a reference for myself, and to help me remember the things I've learned. However, I've decided to make it public in case it might be useful to someone else.
 
-### Installation
+## Getting Started
 
-```
-$ yarn
-```
+To get started with this repository, follow these steps:
+1. **Clone the Repository**: Clone this repository to your local machine using the following command:
+    ```bash
+    git clone https://github.com/your-username/laravel-learning-notes.git
+    ```
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+2. **Install Dependencies**: Navigate to the project directory and install the required dependencies using the following command:
+    ```bash
+    npm install
+    ```
+3. **Start the Development Server**: Start the development server using the following command:
+    ```bash
+    npm run start
+    ```
+4. **Open the Site**: Open your browser and navigate to `http://localhost:3000` to view the site.
+5. **Explore the Documentation**: Navigate through the documentation folders to explore various topics, tutorials, and code samples related to Laravel development.
+6. **Contribute**: If you find any errors or have suggestions for improvements, feel free to open an issue or submit a pull request on [GitHub](https://github.com/HMZElidrissi/Laravel-in-Action)
