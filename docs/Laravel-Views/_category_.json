@@ -1,0 +1,8 @@
+{
+  "label": "Laravel Views",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Views in Laravel are responsible for presenting data to the user. They provide an HTML representation of the application's output. Laravel uses the Blade templating engine, which offers a concise and expressive syntax for working with HTML and PHP. Views can receive data from controllers and display it to the user, allowing for a clear separation between presentation and logic."
+  }
+}
