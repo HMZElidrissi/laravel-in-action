@@ -97,7 +97,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Reach me out',
             items: [
               {
                 label: 'Twitter',
