@@ -71,8 +71,8 @@ cd path/to/your/laravel-app
 composer install
 ```
 
-> if you need to install php8.3, you can use the following commands:
-> 
+:::tip
+if you need to install php8.3, you can use the following commands: 
 
 ```bash
 sudo apt -y install software-properties-common
@@ -82,6 +82,7 @@ sudo apt-get install php8.3
 sudo apt-get install php8.3-cli php8.3-fpm php8.3-mysql php8.3-xml php8.3-mbstring php8.3-curl php8.3-zip php8.3-intl php8.3-gd
 sudo update-alternatives --set php /usr/bin/php8.3
 ```
+:::
 
 1. Install Sail: Run the following command to install Laravel Sail.
 
@@ -121,7 +122,9 @@ sudo chmod -R 777 storage
 sudo chmod o+w ./storage/ -R
 ```
 
-> Don't forget to change the APP_DEBUG to false in the .env file 😉
+:::danger
+Don't forget to change the `APP_DEBUG` to false in the .env file 😉
+:::
 
 ---
 

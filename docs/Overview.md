@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Introduction to Laravel
+# Overview of Laravel
 
 ## Meet Laravel
 
