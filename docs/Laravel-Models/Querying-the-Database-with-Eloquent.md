@@ -97,7 +97,4 @@ foreach ($users as $user) {
 }
 ```
 
-<aside>
-📌 The N+1 query problem is a common performance issue encountered in relational database systems, particularly in the context of Object-Relational Mapping (ORM) frameworks like Laravel's Eloquent ORM. It occurs when an application executes a query to fetch a collection of objects (typically referred to as the "N" query), and then for each object in that collection, it executes an additional query to fetch related data (the "+1 query").
-
-</aside>
+> 📌 The **N+1 query problem** is a common performance issue encountered in relational database systems, particularly in the context of Object-Relational Mapping (ORM) frameworks like Laravel's Eloquent ORM. It occurs when an application executes a query to fetch a collection of objects (typically referred to as the "N" query), and then for each object in that collection, it executes an additional query to fetch related data (the "+1 query").
