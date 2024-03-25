@@ -28,13 +28,13 @@ Route::resource('users', UserController::class);
 
 This single line of code will generate the following routes for the `UserController` :
 
-| Verb      | URI                  | Action   |
-|-----------|----------------------|----------|
-| GET       | /users               | index    |
-| POST      | /users               | store    |
-| GET       | /users/{user}        | show     |
-| PUT/PATCH | /users/{user}        | update   |
-| DELETE    | /users/{user}        | destroy  |
+| Verb      | URI                      | Action     |
+|-----------|--------------------------|------------|
+| `GET`       | `/users`               | `index`    |
+| `POST`      | `/users`               | `store`    |
+| `GET`       | `/users/{user}`        | `show`     |
+| `PUT/PATCH` | `/users/{user}`        | `update`   |
+| `DELETE`    | `/users/{user}`        | `destroy`  |
 
 ## Controller and Model Setup
 
