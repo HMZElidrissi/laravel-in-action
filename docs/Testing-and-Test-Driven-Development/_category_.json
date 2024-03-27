@@ -1,8 +1,8 @@
 {
-  "label": "Testing and Test-Driven Development",
+  "label": "Testing-and-Test-Driven-Development (TDD)",
   "position": 9,
   "link": {
     "type": "generated-index",
-    "description": "Building APIs with Laravel"
+    "description": "Testing-and-Test-Driven-Development (TDD)",
   }
 }

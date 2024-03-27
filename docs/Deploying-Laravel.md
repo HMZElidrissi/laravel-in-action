@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 # Deploying a Laravel Application on AWS EC2 using Laravel Sail with Docker
