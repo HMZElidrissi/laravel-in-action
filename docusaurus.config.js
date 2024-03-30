@@ -13,15 +13,15 @@ const config = {
   favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://hmzelidrissi.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Laravel-in-Action/',
+  baseUrl: '/laravel-in-action/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'HMZElidrissi', // Usually your GitHub org/user name.
-  projectName: 'Laravel-in-Action', // Usually your repo name.
+  organizationName: 'HMZElidrissi', // Usually your GitHub org/username.
+  projectName: 'laravel-in-action', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/HMZElidrissi/Laravel-in-Action/blob/main/',
+            'https://github.com/HMZElidrissi/laravel-in-action/blob/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/HMZElidrissi/Laravel-in-Action/blob/main/',
+            'https://github.com/HMZElidrissi/laravel-in-action/blob/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -78,7 +78,7 @@ const config = {
             label: 'Start Reading',
           },
           {
-            href: 'https://github.com/HMZElidrissi/Laravel-in-Action',
+            href: 'https://github.com/HMZElidrissi/laravel-in-action',
             label: 'GitHub',
             position: 'right',
           },
@@ -110,7 +110,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/HMZElidrissi/Laravel-in-Action',
+                href: 'https://github.com/HMZElidrissi/laravel-in-action',
               },
             ],
           },
