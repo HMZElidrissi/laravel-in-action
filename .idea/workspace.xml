@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="746b45ac-d6bf-42fc-8804-557e936dae43" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="746b45ac-d6bf-42fc-8804-557e936dae43" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +39,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.build && npm run deploy.executor": "Run",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -48,6 +47,24 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build &amp;&amp; npm run deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <arguments value="&amp;&amp; npm run deploy" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build &amp;&amp; npm run deploy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -67,6 +84,7 @@
       <workItem from="1711540903432" duration="5251000" />
       <workItem from="1711548138186" duration="536000" />
       <workItem from="1711842071043" duration="36000" />
+      <workItem from="1711842412763" duration="441000" />
     </task>
     <servers />
   </component>
