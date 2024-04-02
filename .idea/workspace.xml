@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="746b45ac-d6bf-42fc-8804-557e936dae43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Laravel-Models/Querying-the-Database-with-Eloquent.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Laravel-Models/Querying-the-Database-with-Eloquent.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Laravel-Routing.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Laravel-Routing.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Testing-and-Test-Driven-Development/Test-Driven-Development-Workflow.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Testing-and-Test-Driven-Development/Test-Driven-Development-Workflow.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Testing-and-Test-Driven-Development/Testing-HTTP-Requests-and-Responses.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Testing-and-Test-Driven-Development/Testing-HTTP-Requests-and-Responses.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Testing-and-Test-Driven-Development/Writing-Unit-Tests-with-PHPUnit.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Testing-and-Test-Driven-Development/Writing-Unit-Tests-with-PHPUnit.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Understanding-the-Laravel-Ecosystem/Service-Container.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Understanding-the-Laravel-Ecosystem/Service-Container.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/intro.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +30,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/hamza/Projects/laravel-in-action&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.build &amp;&amp; npm run deploy.executor&quot;: &quot;Run&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/hamza/Projects/laravel-in-action/docs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build && npm run deploy.executor": "Run",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs" />
@@ -98,7 +91,7 @@
       <workItem from="1711856125213" duration="14000" />
       <workItem from="1711856268037" duration="19000" />
       <workItem from="1711923059030" duration="16000" />
-      <workItem from="1712094110482" duration="1171000" />
+      <workItem from="1712094110482" duration="2632000" />
     </task>
     <servers />
   </component>
