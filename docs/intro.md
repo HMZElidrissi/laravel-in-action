@@ -18,4 +18,4 @@ The main purpose of this documentation is to serve as a reference for myself, an
 
 ## Contributing
 
-If you find any errors or have suggestions for improvements, feel free to open an issue or submit a pull request on [GitHub](https://github.com/HMZElidrissi/Laravel-in-Action)
+If you find any errors or have suggestions for improvements, feel free to open an issue or submit a pull request on [GitHub](https://github.com/HMZElidrissi/laravel-in-action).

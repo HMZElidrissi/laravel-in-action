@@ -79,8 +79,7 @@ In Laravel's Eloquent ORM, relationships between database tables are defined usi
 
 Eager loading allows you to retrieve the main model along with its related models in a single query. It uses the `with()` method to specify the relationships to be loaded up front, reducing the number of database queries and improving performance:
 
-```php
-// Eager loading example
+```php title="Eager loading example"
 $users = User::with('posts')->get();
 ```
 
@@ -88,8 +87,7 @@ $users = User::with('posts')->get();
 
 Lazy loading, on the other hand, loads related models only when they are accessed for the first time. It avoids loading unnecessary data but may lead to the N+1 query problem, where additional queries are executed when accessing related data in a loop, causing potential performance issues:
 
-```php
-// Lazy loading example
+```php title="Lazy loading example"
 $users = User::all();
 foreach ($users as $user) {
     $posts = $user->posts; 
@@ -97,6 +95,6 @@ foreach ($users as $user) {
 }
 ```
 
-:::tip
-📌 The **N+1 query problem** is a common performance issue encountered in relational database systems, particularly in the context of Object-Relational Mapping (ORM) frameworks like Laravel's Eloquent ORM. It occurs when an application executes a query to fetch a collection of objects (typically referred to as the "N" query), and then for each object in that collection, it executes an additional query to fetch related data (the "+1 query").
+:::tip N+1 Query Problem
+The **N+1 query problem** is a common performance issue encountered in relational database systems, particularly in the context of Object-Relational Mapping (ORM) frameworks like Laravel's Eloquent ORM. It occurs when an application executes a query to fetch a collection of objects (typically referred to as the "N" query), and then for each object in that collection, it executes an additional query to fetch related data (the "+1 query").
 :::

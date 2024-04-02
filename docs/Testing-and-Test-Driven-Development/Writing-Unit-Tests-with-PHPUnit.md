@@ -26,8 +26,7 @@ Within your test class, you define test methods that correspond to the units or 
 
 Let's take a simple example of testing a basic math utility class that performs addition and subtraction:
 
-```php
-// app/Utils/MathUtils.php
+```php title="app/Utils/MathUtils.php"
 
 namespace App\Utils;
 
@@ -47,8 +46,7 @@ class MathUtils
 
 Here's how you can write test methods for this class:
 
-```php
-// tests/Unit/MathUtilsTest.php
+```php title="tests/Unit/MathUtilsTest.php"
 
 namespace Tests\Unit;
 
@@ -159,9 +157,7 @@ In Laravel, you can use the ‘Mockery’ library, which is included by default,
 
 Here’s an example of using mocking to test a class that depends on an external service:
 
-```php
-// app/Services/WeatherService.php
-
+```php title="app/Services/WeatherService.php"
 class WeatherService
 {
     public function getTemperature($city)
@@ -173,9 +169,7 @@ class WeatherService
 }
 ```
 
-```php
-// app/Utils/WeatherReporter.php
-
+```php title="app/Utils/WeatherReporter.php"
 class WeatherReporter
 {
     protected $weatherService;
@@ -198,9 +192,7 @@ class WeatherReporter
 }
 ```
 
-```php
-// tests/Unit/WeatherReporterTest.php
-
+```php title="tests/Unit/WeatherReporterTest.php"
 use Tests\TestCase;
 use App\Services\WeatherService;
 use App\Utils\WeatherReporter;

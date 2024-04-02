@@ -116,8 +116,7 @@ Route::middleware(['auth'])->group(function () {
 
 Let's now create CRUD (Create, Read, Update, Delete) routes for managing blog posts:
 
-```php
-// routes/web.php
+```php title="routes/web.php"
 
 use App\\Http\\Controllers\\BlogController;
 

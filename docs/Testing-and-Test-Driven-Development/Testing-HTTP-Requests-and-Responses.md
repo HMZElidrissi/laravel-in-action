@@ -20,8 +20,7 @@ php artisan make:test ExampleFeatureTest --feature
 
 Here's an example of a simple feature test that verifies the response status code of a route:
 
-```php
-// tests/Feature/ExampleFeatureTest.php
+```php title="tests/Feature/ExampleFeatureTest.php"
 
 namespace Tests\Feature;
 
@@ -44,8 +43,7 @@ Laravel provides a collection of testing aids in feauture tests to simulate HTTP
 
 For example, let's assume you have a simple Laravel route that returns a JSON response:
 
-```php
-// routes/web.php
+```php title="routes/web.php"
 Route::get('/api/users', function ($id) {
     $user = User::find($id);
     return response()->json($user);
@@ -54,8 +52,7 @@ Route::get('/api/users', function ($id) {
 
 You can test this route using the `get` method in your feature test:
 
-```php
-// tests/Feature/UserApiTest.php
+```php title="tests/Feature/UserApiTest.php"
 
 namespace Tests\Feature;
 
@@ -134,8 +131,7 @@ You can also test middleware in your feature tests by adding the middleware to t
 
 For example, let's assume you have a middleware that checks if the user is authenticated:
 
-```php
-// app/Http/Middleware/Authenticate.php
+```php title="app/Http/Middleware/Authenticate.php"
 
 namespace App\Http\Middleware;
 

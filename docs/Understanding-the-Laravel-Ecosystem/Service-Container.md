@@ -12,8 +12,7 @@ How to initialize a Service class `UserRepository` for example, to use it inside
 
 The most most straightforward way would be:
 
-```php
-// UserController.php:
+```php title="UserController.php"
 use App\Repositories\UserRepository;
 
 public function store(StoreUserRequest $request) {
@@ -36,8 +35,7 @@ With this approach Laravel will automatically create its variable to be used ins
 
 And also we can we initialize the `UserRepository` for the whole Controller using the constructor:
 
-```php
-// UserController.php:
+```php title="UserController.php"
 use App\Repositories\UserRepository;
 
 public function __construct(

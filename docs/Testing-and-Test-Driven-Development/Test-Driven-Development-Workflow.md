@@ -12,8 +12,7 @@ The first step in the TDD workflow is to write a test that defines the behavior 
 
 In TDD, a test should be concise and specific and address a single requirement. The test should be a small and focused unit test or feature test, depending on the scope of the functionality being tested.
 
-```php
-// tests/Unit/CalculatorTest.php
+```php title="tests/Unit/CalculatorTest.php"
 
 use PHPUnit\Framework\TestCase;
 use App\Calculator;
