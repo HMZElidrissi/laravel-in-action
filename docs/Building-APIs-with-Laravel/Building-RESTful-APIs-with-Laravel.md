@@ -123,3 +123,26 @@ class CreateUserRequest extends FormRequest
     }
 }
 ```
+
+:::tip Testing the API
+You can test the API using tools like Postman or Insomnia by sending requests to the defined routes and verifying the responses. This allows you to test the CRUD operations and ensure that the API behaves as expected. You can also use command-line tools like `curl` to test the API from the terminal.
+
+```bash title="Send a POST request to create a new user"
+curl -X POST http://localhost:8000/users -d "name=John
+```
+
+```bash title="Send a GET request to fetch all users"
+curl http://localhost:8000/users
+```
+
+```bash title="Send a POST request to the /users endpoint with JSON data"
+curl -H "Content-Type: application/json" --data @user.json http://localhost:8000/api/users
+```
+- `curl` is a command-line tool for transferring data with URLs.
+- `-X` specifies the HTTP method (e.g., POST, GET).
+- `-d` or `--data` sends data in the request body.
+- `-H` or `--header` sets the request headers.
+- `@` reads data from a file.
+- `http://localhost:8000/users` is the URL of the API endpoint.
+:::
+
